@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 180px;
+    height: 180px;
+    background-image: url(./img1.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+img{
+    width: 190px;
+    height: 190px;
+
+}
+
+img:hover{
+    opacity: 0;
+}
