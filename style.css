@@ -3,25 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-div{
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 30px;
-    width: 180px;
-    height: 180px;
-    background-image: url(./img1.png);
-    object-fit: cover;
-    background-repeat: no-repeat;
+body{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
-
-img{
-    width: 190px;
-    height: 190px;
-
+div{ width: 206px;
+    height: 209px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-image: url(./img2.png);
 }
 
 img:hover{
     opacity: 0;
+    transition:.5s ease all ;
 }
